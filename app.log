@@ -1,0 +1,265 @@
+2025-06-05 18:54:37,531 - INFO - Table 'Students' created or already exists.
+2025-06-05 18:54:37,534 - INFO - Table 'Courses' created or already exists.
+2025-06-05 18:54:37,536 - INFO - Table 'Enrollments' created or already exists.
+2025-06-05 18:54:37,537 - INFO - All tables created and committed successfully.
+2025-06-05 18:54:37,553 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 18:54:37,555 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 18:54:37,555 - INFO - Fetched all courses, count: 1
+2025-06-05 18:54:37,557 - INFO - Updated course ID 47 with new credits 111
+2025-06-05 18:54:37,560 - INFO - Deleted course ID 48
+2025-06-05 18:54:37,561 - WARNING - Validation error while adding course: Course name must not be empty.
+2025-06-05 18:54:37,563 - WARNING - Validation error while adding course: Credits must be a positive integer.
+2025-06-05 18:54:37,564 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:54:37,565 - WARNING - Validation error while adding course: Credits must be a positive integer.
+2025-06-05 18:54:37,631 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:54:37,631 - INFO - Added course: Test Kurs with credits 5
+2025-06-05 18:54:37,633 - INFO - Enrolled student ID 62 in course ID 49
+2025-06-05 18:54:37,633 - INFO - Fetched enrollments for student ID 62, count: 1
+2025-06-05 18:54:37,635 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:54:37,635 - INFO - Added course: Stari Kurs with credits 3
+2025-06-05 18:54:37,636 - INFO - Added course: Novi Kurs with credits 5
+2025-06-05 18:54:37,636 - INFO - Enrolled student ID 63 in course ID 50
+2025-06-05 18:54:37,636 - INFO - Updated enrollment for student ID 63 from course ID 50 to 51
+2025-06-05 18:54:37,638 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:54:37,639 - INFO - Added course: Test Kurs with credits 3
+2025-06-05 18:54:37,639 - INFO - Enrolled student ID 64 in course ID 52
+2025-06-05 18:54:37,640 - INFO - Deleted enrollment of student ID 64 from course ID 52
+2025-06-05 18:54:37,654 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 18:54:37,660 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 18:54:37,667 - INFO - Stored procedure 'GetStudentByEmail' created or already exists.
+2025-06-05 18:54:37,672 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:54:37,674 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:54:37,674 - INFO - Fetched all students, count: 1
+2025-06-05 18:54:37,676 - INFO - Updated email for student ID 75 to newemail@email.com
+2025-06-05 18:54:37,679 - INFO - Deleted student ID 76
+2025-06-05 18:54:37,681 - WARNING - Validation error while adding student: Name must not be empty.
+2025-06-05 18:54:37,683 - WARNING - Validation error while adding student: Invalid email address.
+2025-06-05 18:54:37,684 - WARNING - Validation error while updating email: Invalid email address.
+2025-06-05 18:59:40,130 - INFO - Table 'Students' created or already exists.
+2025-06-05 18:59:40,133 - INFO - Table 'Courses' created or already exists.
+2025-06-05 18:59:40,136 - INFO - Table 'Enrollments' created or already exists.
+2025-06-05 18:59:40,136 - INFO - All tables created and committed successfully.
+2025-06-05 18:59:40,151 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 18:59:40,153 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 18:59:40,153 - INFO - Fetched all courses, count: 1
+2025-06-05 18:59:40,155 - INFO - Updated course ID 60 with new credits 111
+2025-06-05 18:59:40,158 - INFO - Deleted course ID 61
+2025-06-05 18:59:40,160 - WARNING - Validation error while adding course: Course name must not be empty.
+2025-06-05 18:59:40,161 - WARNING - Validation error while adding course: Credits must be a positive integer.
+2025-06-05 18:59:40,163 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:59:40,164 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 18:59:40,164 - INFO - Enrolled student ID 80 in course ID 62
+2025-06-05 18:59:40,167 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:59:40,167 - INFO - Added course: Test Kurs with credits 5
+2025-06-05 18:59:40,167 - INFO - Enrolled student ID 81 in course ID 63
+2025-06-05 18:59:40,168 - INFO - Fetched enrollments for student ID 81, count: 1
+2025-06-05 18:59:40,170 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:59:40,170 - INFO - Added course: Stari Kurs with credits 3
+2025-06-05 18:59:40,171 - INFO - Added course: Novi Kurs with credits 5
+2025-06-05 18:59:40,171 - INFO - Enrolled student ID 82 in course ID 64
+2025-06-05 18:59:40,172 - INFO - Updated enrollment for student ID 82 from course ID 64 to 65
+2025-06-05 18:59:40,174 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:59:40,174 - INFO - Added course: Test Kurs with credits 3
+2025-06-05 18:59:40,175 - INFO - Enrolled student ID 83 in course ID 66
+2025-06-05 18:59:40,175 - INFO - Deleted enrollment of student ID 83 from course ID 66
+2025-06-05 18:59:40,189 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 18:59:40,195 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 18:59:40,201 - INFO - Stored procedure 'GetStudentByEmail' created or already exists.
+2025-06-05 18:59:40,207 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:59:40,210 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 18:59:40,210 - INFO - Fetched all students, count: 1
+2025-06-05 18:59:40,212 - INFO - Updated email for student ID 94 to newemail@email.com
+2025-06-05 18:59:40,215 - INFO - Deleted student ID 95
+2025-06-05 18:59:40,217 - WARNING - Validation error while adding student: Name must not be empty.
+2025-06-05 18:59:40,219 - WARNING - Validation error while adding student: Invalid email address.
+2025-06-05 18:59:40,220 - WARNING - Validation error while updating email: Invalid email address.
+2025-06-05 20:05:50,437 - INFO - Table 'Students' created or already exists.
+2025-06-05 20:05:50,440 - INFO - Table 'Courses' created or already exists.
+2025-06-05 20:05:50,442 - INFO - Table 'Enrollments' created or already exists.
+2025-06-05 20:05:50,443 - INFO - All tables created and committed successfully.
+2025-06-05 20:05:50,456 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:05:50,458 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:05:50,458 - INFO - Fetched all courses, count: 1
+2025-06-05 20:05:50,460 - INFO - Updated course ID 74 with new credits 111
+2025-06-05 20:05:50,463 - INFO - Deleted course ID 75
+2025-06-05 20:05:50,464 - WARNING - Validation error while adding course: Course name must not be empty.
+2025-06-05 20:05:50,466 - WARNING - Validation error while adding course: Credits must be a positive integer.
+2025-06-05 20:05:50,468 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:05:50,469 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:05:50,469 - INFO - Enrolled student ID 99 in course ID 76
+2025-06-05 20:05:50,471 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:05:50,472 - INFO - Added course: Test Kurs with credits 5
+2025-06-05 20:05:50,472 - INFO - Enrolled student ID 100 in course ID 77
+2025-06-05 20:05:50,473 - INFO - Fetched enrollments for student ID 100, count: 1
+2025-06-05 20:05:50,475 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:05:50,475 - INFO - Added course: Stari Kurs with credits 3
+2025-06-05 20:05:50,475 - INFO - Added course: Novi Kurs with credits 5
+2025-06-05 20:05:50,476 - INFO - Enrolled student ID 101 in course ID 78
+2025-06-05 20:05:50,476 - INFO - Updated enrollment for student ID 101 from course ID 78 to 79
+2025-06-05 20:05:50,479 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:05:50,479 - INFO - Added course: Test Kurs with credits 3
+2025-06-05 20:05:50,479 - INFO - Enrolled student ID 102 in course ID 80
+2025-06-05 20:05:50,480 - INFO - Deleted enrollment of student ID 102 from course ID 80
+2025-06-05 20:05:50,494 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 20:05:50,500 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 20:05:50,506 - INFO - Stored procedure 'GetStudentByEmail' created or already exists.
+2025-06-05 20:05:50,512 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:05:50,514 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:05:50,514 - INFO - Fetched all students, count: 1
+2025-06-05 20:05:50,517 - INFO - Updated email for student ID 113 to newemail@email.com
+2025-06-05 20:05:50,519 - INFO - Deleted student ID 114
+2025-06-05 20:05:50,521 - WARNING - Validation error while adding student: Name must not be empty.
+2025-06-05 20:05:50,522 - WARNING - Validation error while adding student: Invalid email address.
+2025-06-05 20:05:50,524 - WARNING - Validation error while updating email: Invalid email address.
+2025-06-05 20:33:01,483 - INFO - Table 'Students' created or already exists.
+2025-06-05 20:33:01,486 - INFO - Table 'Courses' created or already exists.
+2025-06-05 20:33:01,490 - INFO - Table 'Enrollments' created or already exists.
+2025-06-05 20:33:01,490 - INFO - All tables created and committed successfully.
+2025-06-05 20:33:01,511 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:33:01,516 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:33:01,517 - INFO - Fetched all courses, count: 1
+2025-06-05 20:33:01,521 - INFO - Updated course ID 5 with new credits 111
+2025-06-05 20:33:01,526 - INFO - Deleted course ID 6
+2025-06-05 20:33:01,529 - WARNING - Validation error while adding course: Course name must not be empty.
+2025-06-05 20:33:01,530 - WARNING - Validation error while adding course: Credits must be a positive integer.
+2025-06-05 20:33:01,533 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:01,534 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:33:01,536 - INFO - Enrolled student ID 4 in course ID 7
+2025-06-05 20:33:01,541 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:01,542 - INFO - Added course: Test Kurs with credits 5
+2025-06-05 20:33:01,542 - INFO - Enrolled student ID 5 in course ID 8
+2025-06-05 20:33:01,543 - INFO - Fetched enrollments for student ID 5, count: 1
+2025-06-05 20:33:01,546 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:01,546 - INFO - Added course: Stari Kurs with credits 3
+2025-06-05 20:33:01,547 - INFO - Added course: Novi Kurs with credits 5
+2025-06-05 20:33:01,548 - INFO - Enrolled student ID 6 in course ID 9
+2025-06-05 20:33:01,550 - INFO - Updated enrollment for student ID 6 from course ID 9 to 10
+2025-06-05 20:33:01,552 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:01,552 - INFO - Added course: Test Kurs with credits 3
+2025-06-05 20:33:01,553 - INFO - Enrolled student ID 7 in course ID 11
+2025-06-05 20:33:01,554 - INFO - Deleted enrollment of student ID 7 from course ID 11
+2025-06-05 20:33:01,578 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 20:33:01,588 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 20:33:01,594 - INFO - Stored procedure 'GetStudentByEmail' created or already exists.
+2025-06-05 20:33:01,602 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:01,605 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:01,605 - INFO - Fetched all students, count: 1
+2025-06-05 20:33:01,609 - INFO - Updated email for student ID 18 to newemail@email.com
+2025-06-05 20:33:01,613 - INFO - Deleted student ID 19
+2025-06-05 20:33:01,615 - WARNING - Validation error while adding student: Name must not be empty.
+2025-06-05 20:33:01,617 - WARNING - Validation error while adding student: Invalid email address.
+2025-06-05 20:33:01,618 - WARNING - Validation error while updating email: Invalid email address.
+2025-06-05 20:33:40,670 - INFO - Table 'Students' created or already exists.
+2025-06-05 20:33:40,673 - INFO - Table 'Courses' created or already exists.
+2025-06-05 20:33:40,676 - INFO - Table 'Enrollments' created or already exists.
+2025-06-05 20:33:40,676 - INFO - All tables created and committed successfully.
+2025-06-05 20:33:40,689 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:33:40,691 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:33:40,691 - INFO - Fetched all courses, count: 1
+2025-06-05 20:33:40,693 - INFO - Updated course ID 19 with new credits 111
+2025-06-05 20:33:40,696 - INFO - Deleted course ID 20
+2025-06-05 20:33:40,697 - WARNING - Validation error while adding course: Course name must not be empty.
+2025-06-05 20:33:40,699 - WARNING - Validation error while adding course: Credits must be a positive integer.
+2025-06-05 20:33:40,701 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:40,701 - INFO - Added course: Test Ime with credits 1234
+2025-06-05 20:33:40,701 - INFO - Enrolled student ID 23 in course ID 21
+2025-06-05 20:33:40,703 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:40,704 - INFO - Added course: Test Kurs with credits 5
+2025-06-05 20:33:40,704 - INFO - Enrolled student ID 24 in course ID 22
+2025-06-05 20:33:40,704 - INFO - Fetched enrollments for student ID 24, count: 1
+2025-06-05 20:33:40,706 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:40,707 - INFO - Added course: Stari Kurs with credits 3
+2025-06-05 20:33:40,707 - INFO - Added course: Novi Kurs with credits 5
+2025-06-05 20:33:40,708 - INFO - Enrolled student ID 25 in course ID 23
+2025-06-05 20:33:40,708 - INFO - Updated enrollment for student ID 25 from course ID 23 to 24
+2025-06-05 20:33:40,711 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:40,711 - INFO - Added course: Test Kurs with credits 3
+2025-06-05 20:33:40,711 - INFO - Enrolled student ID 26 in course ID 25
+2025-06-05 20:33:40,712 - INFO - Deleted enrollment of student ID 26 from course ID 25
+2025-06-05 20:33:40,725 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 20:33:40,731 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-05 20:33:40,737 - INFO - Stored procedure 'GetStudentByEmail' created or already exists.
+2025-06-05 20:33:40,742 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:40,744 - INFO - Added student: Test Ime (test@email.com)
+2025-06-05 20:33:40,745 - INFO - Fetched all students, count: 1
+2025-06-05 20:33:40,747 - INFO - Updated email for student ID 37 to newemail@email.com
+2025-06-05 20:33:40,750 - INFO - Deleted student ID 38
+2025-06-05 20:33:40,752 - WARNING - Validation error while adding student: Name must not be empty.
+2025-06-05 20:33:40,753 - WARNING - Validation error while adding student: Invalid email address.
+2025-06-05 20:33:40,755 - WARNING - Validation error while updating email: Invalid email address.
+2025-06-07 11:16:35,995 - INFO - Table 'Students' created or already exists.
+2025-06-07 11:16:35,999 - INFO - Table 'Courses' created or already exists.
+2025-06-07 11:16:36,002 - INFO - Table 'Enrollments' created or already exists.
+2025-06-07 11:16:36,003 - INFO - All tables created and committed successfully.
+2025-06-07 11:16:36,082 - INFO - Added course: Test Ime with credits 1234
+2025-06-07 11:16:36,088 - INFO - Added course: Test Ime with credits 1234
+2025-06-07 11:16:36,089 - INFO - Fetched all courses, count: 1
+2025-06-07 11:16:36,094 - INFO - Updated course ID 33 with new credits 111
+2025-06-07 11:16:36,098 - INFO - Deleted course ID 34
+2025-06-07 11:16:36,100 - WARNING - Validation error while adding course: Course name must not be empty.
+2025-06-07 11:16:36,102 - WARNING - Validation error while adding course: Credits must be a positive integer.
+2025-06-07 11:16:36,105 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 11:16:36,105 - INFO - Added course: Test Ime with credits 1234
+2025-06-07 11:16:36,107 - INFO - Enrolled student ID 42 in course ID 35
+2025-06-07 11:16:36,113 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 11:16:36,114 - INFO - Added course: Test Kurs with credits 5
+2025-06-07 11:16:36,115 - INFO - Enrolled student ID 43 in course ID 36
+2025-06-07 11:16:36,117 - INFO - Fetched enrollments for student ID 43, count: 1
+2025-06-07 11:16:36,119 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 11:16:36,120 - INFO - Added course: Stari Kurs with credits 3
+2025-06-07 11:16:36,120 - INFO - Added course: Novi Kurs with credits 5
+2025-06-07 11:16:36,121 - INFO - Enrolled student ID 44 in course ID 37
+2025-06-07 11:16:36,126 - INFO - Updated enrollment for student ID 44 from course ID 37 to 38
+2025-06-07 11:16:36,130 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 11:16:36,130 - INFO - Added course: Test Kurs with credits 3
+2025-06-07 11:16:36,131 - INFO - Enrolled student ID 45 in course ID 39
+2025-06-07 11:16:36,132 - INFO - Deleted enrollment of student ID 45 from course ID 39
+2025-06-07 11:16:36,165 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-07 11:16:36,170 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-07 11:16:36,177 - INFO - Stored procedure 'GetStudentByEmail' created or already exists.
+2025-06-07 11:16:36,184 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 11:16:36,187 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 11:16:36,187 - INFO - Fetched all students, count: 1
+2025-06-07 11:16:36,191 - INFO - Updated email for student ID 56 to newemail@email.com
+2025-06-07 11:16:36,195 - INFO - Deleted student ID 57
+2025-06-07 11:16:36,197 - WARNING - Validation error while adding student: Name must not be empty.
+2025-06-07 11:16:36,199 - WARNING - Validation error while adding student: Invalid email address.
+2025-06-07 11:16:36,200 - WARNING - Validation error while updating email: Invalid email address.
+2025-06-07 12:07:25,652 - INFO - Table 'Students' created or already exists.
+2025-06-07 12:07:25,656 - INFO - Table 'Courses' created or already exists.
+2025-06-07 12:07:25,658 - INFO - Table 'Enrollments' created or already exists.
+2025-06-07 12:07:25,659 - INFO - All tables created and committed successfully.
+2025-06-07 12:07:25,687 - INFO - Added course: Test Ime with credits 1234
+2025-06-07 12:07:25,691 - INFO - Added course: Test Ime with credits 1234
+2025-06-07 12:07:25,692 - INFO - Fetched all courses, count: 1
+2025-06-07 12:07:25,695 - INFO - Updated course ID 47 with new credits 111
+2025-06-07 12:07:25,699 - INFO - Deleted course ID 48
+2025-06-07 12:07:25,702 - WARNING - Validation error while adding course: Course name must not be empty.
+2025-06-07 12:07:25,703 - WARNING - Validation error while adding course: Credits must be a positive integer.
+2025-06-07 12:07:25,706 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 12:07:25,707 - INFO - Added course: Test Ime with credits 1234
+2025-06-07 12:07:25,709 - INFO - Enrolled student ID 61 in course ID 49
+2025-06-07 12:07:25,711 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 12:07:25,713 - INFO - Added course: Test Kurs with credits 5
+2025-06-07 12:07:25,713 - INFO - Enrolled student ID 62 in course ID 50
+2025-06-07 12:07:25,714 - INFO - Fetched enrollments for student ID 62, count: 1
+2025-06-07 12:07:25,717 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 12:07:25,718 - INFO - Added course: Stari Kurs with credits 3
+2025-06-07 12:07:25,718 - INFO - Added course: Novi Kurs with credits 5
+2025-06-07 12:07:25,719 - INFO - Enrolled student ID 63 in course ID 51
+2025-06-07 12:07:25,722 - INFO - Updated enrollment for student ID 63 from course ID 51 to 52
+2025-06-07 12:07:25,724 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 12:07:25,724 - INFO - Added course: Test Kurs with credits 3
+2025-06-07 12:07:25,725 - INFO - Enrolled student ID 64 in course ID 53
+2025-06-07 12:07:25,726 - INFO - Deleted enrollment of student ID 64 from course ID 53
+2025-06-07 12:07:25,754 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-07 12:07:25,758 - INFO - Stored procedure 'AddStudent' created or already exists.
+2025-06-07 12:07:25,765 - INFO - Stored procedure 'GetStudentByEmail' created or already exists.
+2025-06-07 12:07:25,772 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 12:07:25,775 - INFO - Added student: Test Ime (test@email.com)
+2025-06-07 12:07:25,775 - INFO - Fetched all students, count: 1
+2025-06-07 12:07:25,779 - INFO - Updated email for student ID 75 to newemail@email.com
+2025-06-07 12:07:25,783 - INFO - Deleted student ID 76
+2025-06-07 12:07:25,785 - WARNING - Validation error while adding student: Name must not be empty.
+2025-06-07 12:07:25,787 - WARNING - Validation error while adding student: Invalid email address.
+2025-06-07 12:07:25,788 - WARNING - Validation error while updating email: Invalid email address.
