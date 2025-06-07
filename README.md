@@ -11,7 +11,6 @@ A separate test database is automatically created and used to ensure data isolat
 - **Logging**: Python `logging` module  
 
 ## Project Structure
-## Project Structure
 
 ```text
 db_test_project/
