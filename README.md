@@ -11,25 +11,29 @@ A separate test database is automatically created and used to ensure data isolat
 - **Logging**: Python `logging` module  
 
 ## Project Structure
+## Project Structure
+
+```text
 db_test_project/
 ├── app/
-│ ├── database.py # Functions for connecting to production and test databases
-│ ├── operations.py # CRUD operations for students, courses, and enrollments
-│ ├── procedures.py # Stored procedure execution functions
-│ ├── setup_db_prod.py # Creates tables and constraints in the production database
-│ └── setup_db_test.py # Creates tables and constraints in the test database
+│   ├── database.py               # Functions for connecting to production and test databases
+│   ├── operations.py             # CRUD operations for students, courses, and enrollments
+│   ├── procedures.py             # Stored procedure execution functions
+│   ├── setup_db_prod.py          # Creates tables and constraints in the production database
+│   └── setup_db_test.py          # Creates tables and constraints in the test database
 │
 ├── tests/
-│ ├── conftest.py # Pytest fixtures for test database setup
-│ ├── test_students.py # Tests for student-related operations
-│ ├── test_courses.py # Tests for course-related operations
-│ ├── test_enrollments.py # Tests for enrollments
-│ ├── test_procedures.py # Tests for stored procedures
-│ └── test_constraints.py # Tests for database constraints and validations
+│   ├── conftest.py               # Pytest fixtures for test database setup
+│   ├── test_students.py          # Tests for student-related operations
+│   ├── test_courses.py           # Tests for course-related operations
+│   ├── test_enrollments.py       # Tests for enrollments
+│   ├── test_procedures.py        # Tests for stored procedures
+│   └── test_constraints.py       # Tests for database constraints and validations
 │
-├── create_database.py # Script to create production and test databases via connection to master
-├── requirements.txt # Python dependencies
-└── README.md # Project overview and instructions
+├── create_database.py           # Script to create production and test databases via connection to master
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project overview and instructions
+```
 
 ## Installation
 1. Clone the repository:
