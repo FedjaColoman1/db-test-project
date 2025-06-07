@@ -39,29 +39,31 @@ db_test_project/
 git clone https://github.com/FedjaColoman1/db_test_project.git
 cd db_test_project
 
-2. Create a virtual environment (optional but recommended):
+3. Create a virtual environment (optional but recommended):
 python -m venv venv
 venv\Scripts\activate  # On Windows
 
-3. Install required dependencies:
+5. Install required dependencies:
 pip install -r requirements.txt
 
-4. Ensure SQL Server is running and accessible.
+6. Ensure SQL Server is running and accessible.
 You must have:
 SQL Server installed and running locally (or accessible remotely)
 The ODBC Driver 17 (or newer) for SQL Server installed
 
-5. Create databases (Production and Test):
+7. Create databases (Production and Test):
 Run the following script to create both databases automatically:
 python create_database.py
 
-6. Set up database schema (tables, constraints, procedures):
+8. Set up database schema (tables, constraints, procedures):
 python app/setup_db_prod.py
 python app/setup_db_test.py
 
 ## Usage
 Running Tests
+
 To run the automated database tests:
+
 pytest
 
 Make sure your SQL Server service is running and that the test database exists or can be created by the create_database.py script.
